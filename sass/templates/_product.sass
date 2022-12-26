@@ -1,0 +1,133 @@
+.product
+    padding-top: 8rem
+    padding-bottom: 15rem
+    &-content
+        display: flex
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            top: 245px
+            left: -50px
+            width: 24px
+            height: 24px
+            background: url('../img/left.svg') no-repeat 
+        &::after 
+            content: ''
+            position: absolute
+            top: 245px
+            left: 1205px
+            width: 24px
+            height: 24px
+            background: url('../img/right.svg') no-repeat
+    &-card
+        display: flex
+        background: url('../img/info.svg') no-repeat top 20px right 20px  , #FFEDCD
+        border-radius: 25px
+        margin-right: 2.4375rem
+        padding: 3.375rem 0.25rem 2.0625rem 3.6875rem
+        &__title
+            max-width: 7.75rem
+            font-size: 2.5rem
+            color: #195557
+            margin-bottom: 1.0625rem
+        &__text
+            max-width: 11.8rem
+            font-size: 0.875rem
+            color: #000
+            font-family: 'Raleway'
+            line-height: 22px
+            margin-bottom: 1.0625rem
+        &-price
+            display: flex
+            flex-direction: column
+            &__sale
+                color: #bdbcbc
+                text-decoration-line: line-through
+                font-size: 1.25rem
+                margin-bottom: 0.2rem
+            &__tag
+                color: #195557
+                font-size: 2.5rem
+                font-weight: bold
+        &__img
+            padding-top: 6.1875rem
+            padding-bottom: 2.0625rem
+    &-carder
+        display: flex
+        background: url('../img/info.svg') no-repeat top 20px right 20px  , #E2F0DF
+        border-radius: 25px
+        padding: 3.375rem 0.25rem 0.625rem 3.6875rem
+        &__title
+            max-width: 7.75rem
+            font-size: 2.5rem
+            color: #195557
+            margin-bottom: 1.0625rem
+        &__text
+            max-width: 11.8rem
+            font-size: 0.875rem
+            color: #000
+            font-family: 'Raleway'
+            line-height: 22px
+            margin-bottom: 1.0625rem
+        &-price
+            display: flex
+            flex-direction: column
+            &__sale
+                color: #bdbcbc
+                text-decoration-line: line-through
+                font-size: 1.25rem
+                margin-bottom: 0.2rem
+            &__tag
+                color: #195557
+                font-size: 2.5rem
+                font-weight: bold
+        &__img
+            padding-top: 6.875rem
+// .card
+//     &-desc
+//         padding: 3.375rem 0 3.625rem 3.625rem 
+.sale
+    background: #70908B
+    position: absolute
+    top: -10px
+    left: 60px
+    &-item
+        font-size: 20px
+        color: $white
+        padding: 8px 8px 9px 9px
+        font-weight: bold
+.sale--two
+    background: #70908B
+    position: absolute
+    top: -10px
+    left: 660px
+.new
+    position: absolute
+    // top: 0px
+    bottom: -61px
+    margin: auto
+    display: flex
+    justify-content: center
+    align-items: center
+    left: 499px
+    width: 55px
+    height: 144px
+    background: $white
+    transform: rotate(45deg)
+    &-img
+        transform: rotate(45deg)
+.new--two
+    position: absolute  
+    bottom: -698px
+    margin: auto
+    display: flex
+    justify-content: center
+    align-items: center
+    left: 1500px
+    width: 55px
+    height: 144px
+    background: $white
+    transform: rotate(45deg)
+    &-img
+        transform: rotate(45deg)
